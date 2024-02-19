@@ -1,0 +1,78 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "004d0180-cf3f-11ee-9d46-77b7bce35610"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "17d442a0-cf3f-11ee-9d46-77b7bce35610"
+    },
+    "label" : "",
+    "name" : "CONAFOR",
+    "softwareId" : null,
+    "type" : "iBeacon_MQTT"
+  },
+  "credentials" : {
+    "credentialsId" : "P7rBBpF9BdfIgWFJ2lic",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1708363523719,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1708363556791,
+      "longValue" : 1708363523700,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1708358675806,
+      "longValue" : 1708358673084,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "macTemperaturaHumedad",
+      "lastUpdateTs" : 1708358561992,
+      "longValue" : null,
+      "strValue" : "AC233FA4DAA6"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : null,
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9febffd0-cd22-11ee-b180-19b6c811311f"
+    },
+    "name" : "Customer A",
+    "phone" : null,
+    "state" : null,
+    "title" : "Customer A",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

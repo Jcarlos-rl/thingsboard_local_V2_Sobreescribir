@@ -1,0 +1,38 @@
+{
+  "entityType" : "NOTIFICATION_RULE",
+  "entity" : {
+    "additionalConfig" : {
+      "description" : "Send notification to tenant admins when any Rule chain or Rule node failed to start, update or stop"
+    },
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_RULE",
+      "id" : "9f3c37d0-cd22-11ee-b180-19b6c811311f"
+    },
+    "name" : "Rule node initialization failure",
+    "recipientsConfig" : {
+      "targets" : [ "9f135310-cd22-11ee-b180-19b6c811311f" ],
+      "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT"
+    },
+    "templateId" : {
+      "entityType" : "NOTIFICATION_TEMPLATE",
+      "id" : "9f3a3c00-cd22-11ee-b180-19b6c811311f"
+    },
+    "triggerConfig" : {
+      "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT",
+      "onlyRuleChainLifecycleFailures" : true,
+      "onlyRuleNodeLifecycleFailures" : true,
+      "ruleChainEvents" : [ "UPDATED", "STOPPED", "STARTED" ],
+      "ruleChains" : null,
+      "ruleNodeEvents" : [ "UPDATED", "STOPPED", "STARTED" ],
+      "trackRuleNodeEvents" : true,
+      "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT"
+    },
+    "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
