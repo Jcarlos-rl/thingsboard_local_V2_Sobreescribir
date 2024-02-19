@@ -1,0 +1,94 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "3cc7fe90-ce1c-11ee-bab6-d361411bf283"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "74c3bdf0-ce1e-11ee-bab6-d361411bf283"
+    },
+    "label" : "",
+    "name" : "CONAFOR",
+    "softwareId" : null,
+    "type" : "iBeacon_MQTT"
+  },
+  "credentials" : {
+    "credentialsId" : "e0da1d8320a36f34fdc1d264fb30005168653ca076a7c8c1c971a5d1538cb3b1",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"6kqgi6s8ig4ss4d6dsdg\",\"userName\":\"f8ii95f84nrmyovi703f\",\"password\":\"80mpm3kry9bw2nnqyl0s\"}"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1708363539097,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1708363587574,
+      "longValue" : 1708363538938,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1708358675655,
+      "longValue" : 1708358672927,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1708358672892,
+      "longValue" : 1708358672892,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1708358672942,
+      "longValue" : 1708358672942,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "macTemperaturaHumedad",
+      "lastUpdateTs" : 1708234862390,
+      "longValue" : null,
+      "strValue" : "AC233FA4DAA6"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

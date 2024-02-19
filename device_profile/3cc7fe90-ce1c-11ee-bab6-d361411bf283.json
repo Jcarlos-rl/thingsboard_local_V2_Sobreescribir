@@ -1,0 +1,44 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f4ebff90-ce1b-11ee-bab6-d361411bf283"
+    },
+    "description" : "",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "3cc7fe90-ce1c-11ee-bab6-d361411bf283"
+    },
+    "image" : null,
+    "name" : "iBeacon_MQTT",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
